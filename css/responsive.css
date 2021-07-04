@@ -1,0 +1,139 @@
+@media only screen and (max-width:440px){
+
+    .navigation  ul {
+        display: none;
+    }
+    .social-icons ul {
+        display: none;
+    }
+    .main-menu {
+       
+        display: flex;
+      justify-content: space-between;
+    }
+    .font-content {
+        display: block;
+        padding: 20px 0px;
+    }
+    .vector{
+       display: none;
+        }
+    .content {
+        width: 350px;
+        padding: 50px 0px 0px 40px;
+        color: white;
+    }
+    .about {
+        display: block;
+        padding: 0px;
+    }
+    .about .about-words{
+        width: 360px;
+        padding: 20px;
+    }
+    .about .about-img img {
+        max-width: 360px;
+        height: auto;
+        padding: 15px;
+        margin-top: 10px;
+    }
+    .concept {
+        padding: 0 40px;
+        display: flex;
+        flex-direction: column;
+        margin: 40px 0;
+    }
+    .concept .animation {
+        width: 100%;
+    }
+    .concept .animation ul li i{
+        padding: 0px;
+    }
+    .concept .animation h3 {
+        display: flex;
+        flex-direction: row;
+       padding:  15px 0;
+        font-size: 15px;
+    }
+    .concept-two {
+        padding: 20px 0;
+        display: block;
+        background-color: #03A9F5;
+    }
+    .img-vector img {
+        max-width:350px;
+        padding: 10px;
+    }
+    .words {
+        margin: 30px 0px 0px 15px;
+    }
+    .words ul {
+        display: block;
+    }
+    .words ul li {
+        list-style: none;
+        padding: 10px 20px;
+    }
+    .team-header {
+        width:100%;
+        padding: 15px;
+        height: auto;
+        margin: auto;
+    }
+    .team {
+        padding: 40px 0px;
+    display: flex;
+     flex-direction: column;
+    }
+    .eatch-member {
+        width: 100%;
+        text-align: center;
+        margin: 15px 0;
+        padding: 10px;
+    }
+    .last-content {
+        padding: 40px 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 15px;
+       
+    }
+    .last-content img {
+        max-width: 360px;
+        height: auto;
+        padding: 20px 10px;
+    }
+    .text {
+        margin-bottom: 18px;
+    }
+    .heading {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+    }
+    .working-folder {
+        width: 360px;
+    }
+    .working-folder ul {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+       
+    }
+    .working-folder ul li {
+        list-style: none;
+       
+    }
+    .working-folder ul li a {
+        text-decoration: none;
+        padding: 15px;
+        margin-right: 15px;
+        font-size: 13px;
+        color: #000;
+    }
+    .working-folder ul li::after{
+        background-color: transparent;
+    }
+}
